@@ -40,13 +40,13 @@ const Nav = () => {
                             <div className='flex items-center justify-center flex-col'>
                                 <div className='bg-white opacity-20 h-[1px] w-full px-5 mt-8 mb-6'></div>
                                 <ul className='flex align-center justify-center ps-0 mb-0'>
-                                    <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</Link></li>
-                                    <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</Link></li>
-                                    <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</Link></li>
-                                    <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</Link></li>
+                                    <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</Link></li>
+                                    <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</Link></li>
+                                    <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</Link></li>
+                                    <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</Link></li>
                                 </ul>
                                 <div className='block lg:hidden mt-4'>
-                                    <button className='ff_CircularStd leading-[126.5%] text-base text-white w-[335px] h-[50px] rounded-[10px] bg-[#FFA852] px-[37px] border border-solid border-[#ffa852] hover:bg-transparent duration-300'>Login</button>
+                                    <button className='ff_CircularStd leading-[126.5%] text-base text-white w-[335px] h-[50px] rounded-[10px] bg-[#FFA852] px-[37px] border border-solid border-[#ffa852] hover:bg-transparent duration-300 font-medium'>Login</button>
                                 </div>
                             </div>
                         </div>
@@ -54,15 +54,15 @@ const Nav = () => {
 
                     <div className='lg:block hidden'>
                         <ul className='flex align-items-center gap-5'>
-                            <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-bold ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>
-                            <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>
-                            <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>
-                            <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>
+                            <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>
+                            <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>
+                            <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>
+                            <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>
                         </ul>
                     </div>
 
                     <div className='lg:block hidden'>
-                        <button className='ff_CircularStd leading-[126.5%] text-base text-white max-w-[115px] h-[43px] rounded-[10px] bg-[#FFA852] px-[37px] border border-solid border-[#ffa852] hover:bg-transparent duration-300'>Login</button>
+                        <button className='ff_CircularStd leading-[126.5%] text-base text-white max-w-[115px] h-[43px] rounded-[10px] bg-[#FFA852] px-[37px] border border-solid border-[#ffa852] hover:bg-transparent duration-300 font-medium'>Login</button>
                     </div>
 
                     <div className='lg:hidden block z-1'>
