@@ -10,7 +10,7 @@ const Community = () => {
                 <div className='flex items-center justify-between lg:flex-row flex-col-reverse gap-6 lg:gap-8'>
 
                     <div className='mb-0 max-w-[527px] w-full'>
-                        <img className='max-w-[295px] sm:max-w-[450px] lg:max-w-[527px] w-full mx-auto' src={GirlsImg} alt="GirlsImg" />
+                        <img className='max-w-[295px] sm:max-w-[400px] lg:max-w-[450px] xl:max-w-[527px] w-full mx-auto' src={GirlsImg} alt="GirlsImg" />
                         <button className='mt-6 text-white bg-[#5271FF] w-full h-[54px] sm:h-[60px] rounded-[10px] ff_CircularStd text-base sm:text-[18px] leading-[126.5%] font-medium block lg:hidden max-w-[461px] mx-auto hover:bg-black duration-300'>Get Started</button>
                     </div>
 
