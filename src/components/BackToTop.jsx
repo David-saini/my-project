@@ -17,7 +17,7 @@ const BackToTop = () => {
     const scrollTop = React.useRef()
     React.useEffect(() => {
         window.addEventListener('scroll', (e) => {
-            window.scrollY > 200
+            window.scrollY > 300
                 ? scrollTop.current.style.display = 'inline-block'
                 : scrollTop.current.style.display = 'none'
         })
