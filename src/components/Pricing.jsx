@@ -17,8 +17,8 @@ const Pricing = () => {
 
                     <div className='flex items-center justify-center sm:flex-row flex-col pt-[45px] pb-[25px] sm:py-[50px] gap-5 sm:gap-6'>
 
-                        <div className='bg-white sm:mt-[9px] w-full max-w-[461px] rounded-[10px] border-[6px] border-white hover:border-[#F68A74] px-5 sm:px-[35px] py-[30px] sm:py-10 duration-300 relative pricing_card cursor-pointer'>
-                            <div className='text-white font-bold ff_CircularStd text-[14px] sm:text-[18px] leading-[126.5%] bg-[#F68A74] w-[124px] h-[31px] sm:w-[160px] sm:h-[38px] flex items-center justify-center rotate-[-12.54deg] sm:rotate-[-30.97deg] rounded-[10px] absolute top-[-3%] left-[-7%] sm:left-[-18%] info'>Most Popular</div>
+                        <div className='bg-white sm:mt-[9px] w-full max-w-[461px] rounded-[10px] border-[6px] border-[#F68A74] px-5 sm:px-[35px] py-[30px] sm:py-10 cursor-pointer relative'>
+                            <div className='text-white font-bold ff_CircularStd text-[14px] sm:text-[18px] leading-[126.5%] bg-[#F68A74] w-[124px] h-[31px] sm:w-[160px] sm:h-[38px] flex items-center justify-center rotate-[-12.54deg] xl:rotate-[-30.97deg] rounded-[10px] absolute top-[-3%] left-[-7%] sm:left-[-4%] xl:left-[-18%]'>Most Popular</div>
 
                             <img className='max-w-[102px] sm:max-w-[143px] mx-auto' src={StandardPrice} alt="StandardPrice" />
 
@@ -57,8 +57,7 @@ const Pricing = () => {
                             <button className='mt-5 sm:mt-6 text-white bg-[#5271FF] w-full h-[54px] sm:h-[60px] rounded-[10px] ff_CircularStd text-base sm:text-[18px] leading-[126.5%] font-medium hover:bg-black duration-300'>Start For Free</button>
                         </div>
 
-                        <div className='bg-white sm:mt-[9px] w-full max-w-[461px] rounded-[10px] border-[6px] border-white hover:border-[#F68A74] px-5 sm:px-[35px] py-[30px] sm:py-10 duration-300 relative pricing_card cursor-pointer'>
-                            <div className='text-white font-bold ff_CircularStd text-[14px] sm:text-[18px] leading-[126.5%] bg-[#F68A74] w-[124px] h-[31px] sm:w-[160px] sm:h-[38px] flex items-center justify-center rotate-[-12.54deg] sm:rotate-[-30.97deg] rounded-[10px] absolute top-[-3%] left-[-7%] sm:left-[-18%] info'>Most Popular</div>
+                        <div className='bg-white sm:mt-[9px] w-full max-w-[461px] rounded-[10px] border-[6px] border-white px-5 sm:px-[35px] py-[30px] sm:py-10 duration-300 relative pricing_card cursor-pointer'>
 
                             <img className='max-w-[93px] sm:max-w-[129px] mx-auto' src={Enterprise} alt="Enterprise" />
 

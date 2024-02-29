@@ -22,7 +22,7 @@ const Header = () => {
                             <img className='absolute top-[-1%] start-[-4%]' src={VirticalVector} alt="VirticalVector" />
                             <h2 className='font-black ff_CircularStd text-[30px] md:text-[35px] lg:text-[40px] leading-[110%] text-black max-w-[527px] relative z-[10]'> <span className='text-[#5271FF]'>Redeem Discounts for</span> Amazing Products: Engage with a <span className='text-[#5271ff]'>Community</span> and <span className='lg:block text-[#5271ff]'>Win Cash Prizes</span></h2>
                         </div>
-                        <p className='ff_CircularStd text-base sm:text-[18px] leading-[150%] font-normal text-[#797979] lg:max-w-[532px] mt-[14px] hidden lg:block'>Use Incentive to list and find promotional discounts and win prizes for helping support businesses. Chat and connect with others and then privately review the promotion.</p>
+                        <p className='ff_CircularStd text-base sm:text-[18px] leading-[150%] font-normal text-[#797979] lg:max-w-[551px] mt-[14px] hidden lg:block'>Use Incentive to list and find promotional discounts and win prizes for helping support businesses. Chat and connect with others and then privately review the promotion.</p>
 
                         <div className='lg:block hidden'>
                             <button className='mt-5 sm:mt-6 text-white bg-[#5271FF] w-full h-[54px] sm:h-[60px] rounded-[10px] ff_CircularStd text-base sm:text-[18px] leading-[126.5%] font-medium max-w-[353px] flex items-center justify-center gap-4 hover:bg-black duration-300'>Find Promotions/Contests <span><img className='w-[20px]' src={MsgIcon} alt="MsgIcon" /></span></button>
@@ -32,7 +32,7 @@ const Header = () => {
 
                     <div className='mb-0 relative'>
                         <img className='max-w-[295px] sm:max-w-[450px] lg:max-w-[558px] w-full mx-auto relative z-[10]' src={GirlImg} alt="GirlsImg" />
-                        <p className='ff_CircularStd text-base sm:text-[18px] leading-[150%] font-normal text-[#797979] max-w-[532px] mt-[14px] lg:hidden block'>Use Incentive to list and find promotional discounts and win prizes for helping support businesses. Chat and connect with others and then privately review the promotion.</p>
+                        <p className='ff_CircularStd text-base sm:text-[18px] leading-[150%] font-normal text-[#797979] max-w-[551px] mt-[14px] lg:hidden block'>Use Incentive to list and find promotional discounts and win prizes for helping support businesses. Chat and connect with others and then privately review the promotion.</p>
                         <div className='block lg:hidden'>
                             <button className='mt-6 text-white bg-[#5271FF] w-full h-[54px] sm:h-[60px] rounded-[10px] ff_CircularStd text-base sm:text-[18px] leading-[126.5%] font-medium max-w-[353px] flex items-center justify-center gap-4 hover:bg-black duration-300'>Find Promotions/Contests <span><img className='w-[20px]' src={MsgIcon} alt="MsgIcon" /></span></button>
                         </div>
