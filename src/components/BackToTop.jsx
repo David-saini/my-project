@@ -26,9 +26,9 @@ const BackToTop = () => {
         <>
             <div className='my_container'>
                 <span
-                    onClick={() => setPosition({ ...position, position: { top: 0, left: 0 } })} className=""
+                    onClick={() => setPosition({ ...position, position: { top: 0, left: 0 } })} className="circle"
                     ref={scrollTop}
-                ><img className='w-full max-w-[60px] cursor-pointer flex' src={topUp} alt="topUp" /></span>
+                ><img className='w-100 d-flex' src={topUp} alt="topUp" /></span>
             </div>
         </>
 

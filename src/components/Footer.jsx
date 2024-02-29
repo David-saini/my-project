@@ -13,10 +13,10 @@ const Footer = () => {
                         <Link className='max-w-[62.24px] sm:max-w-[80px]'><img src={FooterLogo} alt="FooterLogo" /></Link>
 
                         <ul className='flex sm:flex-row flex-col items-center gap-[11px] sm:gap-[30px] md:gap-[40px] lg:gap-[51px] my-[30px] sm:my-0'>
-                            <li className='text-black font-normal ff_CircularStd text-base leading-[126.5%] hover:text-[#4665f1] duration-300'><Link>Menu</Link></li>
-                            <li className='text-black font-normal ff_CircularStd text-base leading-[126.5%] hover:text-[#4665f1] duration-300'><Link>Menu</Link></li>
-                            <li className='text-black font-normal ff_CircularStd text-base leading-[126.5%] hover:text-[#4665f1] duration-300'><Link>Menu</Link></li>
-                            <li className='text-black font-normal ff_CircularStd text-base leading-[126.5%] hover:text-[#4665f1] duration-300'><Link>Menu</Link></li>
+                            <li className='text-black font-normal ff_CircularStd text-base leading-[126.5%] hover:text-[#ffa852] duration-300'><Link>Menu</Link></li>
+                            <li className='text-black font-normal ff_CircularStd text-base leading-[126.5%] hover:text-[#ffa852] duration-300'><Link>Menu</Link></li>
+                            <li className='text-black font-normal ff_CircularStd text-base leading-[126.5%] hover:text-[#ffa852] duration-300'><Link>Menu</Link></li>
+                            <li className='text-black font-normal ff_CircularStd text-base leading-[126.5%] hover:text-[#ffa852] duration-300'><Link>Menu</Link></li>
                         </ul>
 
                         <div className='flex items-center gap-3'>

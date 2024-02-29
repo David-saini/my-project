@@ -23,7 +23,7 @@ function App() {
       <Community />
       <Pricing />
       <Footer />
-      {/* <BackToTop /> */}
+      <BackToTop />
     </div>
   );
 }

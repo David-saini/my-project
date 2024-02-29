@@ -30,6 +30,7 @@ const Nav = () => {
                         </div>
 
                         <div className={`${Menu ? 'show-nav' : 'nav-fix'}`}>
+                            <Link><img className='w-[99px] sm:w-[120px] md:w-[149px] absolute top-[15px] left-[15px]' src={HeaderLogo} alt="HeaderLogo" /></Link>
                             <div className='z-index-100' onClick={() => setMenu(false)}>
                                 <div className='absolute top-[20px] right-[15px]'>
                                     <Link><img className='w-[18px]' src={CrossIcon} alt="CrossIcon" /></Link>
