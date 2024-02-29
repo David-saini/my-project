@@ -54,7 +54,7 @@ const Nav = () => {
 
                     <div className='lg:block hidden'>
                         <ul className='flex align-items-center gap-5'>
-                            <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>
+                            <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks active'>Menu</Link></li>
                             <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>
                             <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>
                             <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>

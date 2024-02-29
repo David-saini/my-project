@@ -17,7 +17,7 @@ const ChatSec = () => {
                             <img className='absolute top-[-25%] left-[-10%] sm:left-[-7%] w-[96px] sm:w-[120px] lg:w-[149px]' src={TextVector} alt="TextVector" />
                             <h2 className='ff_CircularStd text-[28px] md:text-[35px] lg:text-[40px] font-black leading-[110%] text-black relative z-10'>Chat With Others</h2>
                         </div>
-                        <p className='font-normal ff_CircularStd text-[#797979] text-base md:text-[18px] leading-[150%] md:max-w-[455px] lg:max-w-[551px] mt-[14px] md:mt-5'>Chat easily with people interested and the business all in one place. All chats are group chats so business hosts can build excitment and guide customers before a promo.</p>
+                        <p className='font-normal ff_CircularStd text-[#797979] text-base md:text-[18px] leading-[150%] md:max-w-[455px] lg:max-w-[556px] mt-[14px] md:mt-5'>Chat easily with people interested and the business all in one place. All chats are group chats so business hosts can build excitment and guide customers before a promo.</p>
                         <button className='mt-5 sm:mt-6 text-white bg-[#5271FF] w-full h-[54px] sm:h-[60px] rounded-[10px] ff_CircularStd text-base sm:text-[18px] leading-[126.5%] font-medium max-w-[197px] md:block hidden hover:bg-black duration-300'>Get Started</button>
                     </div>
 
