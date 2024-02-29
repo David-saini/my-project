@@ -46,7 +46,7 @@ const Nav = () => {
                                     <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</Link></li>
                                 </ul>
                                 <div className='block lg:hidden mt-4'>
-                                    <button className='ff_CircularStd leading-[126.5%] text-base text-white w-[335px] h-[50px] rounded-[10px] bg-[#FFA852] px-[37px] border border-solid border-[#ffa852] hover:bg-transparent duration-300 font-medium'>Login</button>
+                                    <button className='ff_CircularStd leading-[126.5%] text-base text-white w-[335px] h-[50px] rounded-[10px] bg-[#FFA852] px-[37px] border border-solid border-[#ffa852] hover:border-black hover:bg-black duration-300 font-medium'>Login</button>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ const Nav = () => {
                     </div>
 
                     <div className='lg:block hidden'>
-                        <button className='ff_CircularStd leading-[126.5%] text-base text-white max-w-[115px] h-[43px] rounded-[10px] bg-[#FFA852] px-[37px] border border-solid border-[#ffa852] hover:bg-transparent duration-300 font-medium'>Login</button>
+                        <button className='ff_CircularStd leading-[126.5%] text-base text-white max-w-[115px] h-[43px] rounded-[10px] bg-[#FFA852] px-[37px] border border-solid border-[#ffa852] hover:bg-black hover:border-black duration-300 font-medium'>Login</button>
                     </div>
 
                     <div className='lg:hidden block z-1'>

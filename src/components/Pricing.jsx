@@ -99,7 +99,7 @@ const Pricing = () => {
 
                     </div>
 
-                    <p className='max-w-[777px] text-base sm:text-[18px] leading-[150%] mx-auto font-normal ff_CircularStd text-white text-center'>¹No purchase necessary. Contests are open to all eligible attendees who are active participants of the incentive community. All contests are open to eligible participants who "Request to Join" a contest based on eligibility criteria.</p>
+                    <p className='max-w-[783px] text-base sm:text-[18px] leading-[150%] mx-auto font-normal ff_CircularStd text-white text-center'>¹No purchase necessary. Contests are open to all eligible attendees who are active participants of the incentive community. All contests are open to eligible participants who "Request to Join" a contest based on eligibility criteria.</p>
 
                 </div>
             </div>

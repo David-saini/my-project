@@ -21,7 +21,7 @@ const Services = () => {
                     <div className='flex items-center flex-wrap justify-center gap-[15px] md:gap-[18px]'>
 
                         {/* 1 */}
-                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow'>
+                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow hover:scale-[1.05] duration-300 cursor-pointer'>
                             <div className='flex items-center pt-[25px] md:pt-9 flex-col'>
                                 <img className='max-w-[56px] sm:max-w-[67px]' src={ServicesImg1} alt="ServicesImg1" />
                                 <p className='ff_CircularStd mt-3 sm:mt-1.5 text-[14px] sm:text-[16px] md:text-[18px] text-black font-normal leading-[130%]'>Automotive</p>
@@ -29,7 +29,7 @@ const Services = () => {
                         </div>
 
                         {/* 2 */}
-                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow'>
+                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow cursor-pointer hover:scale-[1.05] duration-300 '>
                             <div className='flex items-center pt-[25px] md:pt-9 flex-col'>
                                 <img className='max-w-[48px] sm:max-w-[57px]' src={ServicesImg2} alt="ServicesImg2" />
                                 <p className='ff_CircularStd mt-3 sm:mt-1.5 text-[14px] sm:text-[16px] md:text-[18px] text-black font-normal leading-[130%]'>Travel Tours</p>
@@ -37,7 +37,7 @@ const Services = () => {
                         </div>
 
                         {/* 3 */}
-                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow'>
+                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow cursor-pointer hover:scale-[1.05] duration-300 '>
                             <div className='flex items-center pt-[25px] md:pt-9 flex-col'>
                                 <img className='max-w-[48px] sm:max-w-[56px]' src={ServicesImg3} alt="ServicesImg3" />
                                 <p className='ff_CircularStd mt-3 sm:mt-1.5 text-[14px] sm:text-[16px] md:text-[18px] text-black font-normal leading-[130%]'>Tech Repairs</p>
@@ -45,15 +45,15 @@ const Services = () => {
                         </div>
 
                         {/* 4 */}
-                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow'>
+                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow cursor-pointer hover:scale-[1.05] duration-300 '>
                             <div className='flex items-center pt-[25px] md:pt-9 flex-col'>
                                 <img className='max-w-[48px] sm:max-w-[56px]' src={ServicesImg4} alt="ServicesImg4" />
-                                <p className='ff_CircularStd mt-3 sm:mt-1.5 text-[14px] sm:text-[16px] md:text-[18px] text-black font-normal leading-[130%]'>Health and <span className='sm:block'>Fitness</span></p>
+                                <p className='ff_CircularStd mt-3 sm:mt-1.5 text-[14px] sm:text-[16px] md:text-[18px] text-black font-normal leading-[130%] text-center'>Health and <span className='sm:block'>Fitness</span></p>
                             </div>
                         </div>
 
                         {/* 5 */}
-                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow'>
+                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow cursor-pointer hover:scale-[1.05] duration-300 '>
                             <div className='flex items-center pt-[25px] md:pt-9 flex-col'>
                                 <img className='max-w-[47px] sm:max-w-[54px]' src={ServicesImg5} alt="ServicesImg5" />
                                 <p className='ff_CircularStd mt-3 sm:mt-1.5 text-[14px] sm:text-[16px] md:text-[18px] text-black font-normal leading-[130%]'>E-Commerce</p>
@@ -61,15 +61,15 @@ const Services = () => {
                         </div>
 
                         {/* 6 */}
-                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow'>
+                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow cursor-pointer hover:scale-[1.05] duration-300 '>
                             <div className='flex items-center pt-[25px] sm:pt-9 flex-col'>
                                 <img className='max-w-[47px] sm:max-w-[54px]' src={ServicesImg6} alt="ServicesImg6" />
-                                <p className='ff_CircularStd mt-3 sm:mt-1.5 text-[14px] sm:text-[16px] md:text-[18px] text-black font-normal leading-[130%]'>Home <span className='sm:block'>Services</span></p>
+                                <p className='ff_CircularStd mt-3 sm:mt-1.5 text-[14px] sm:text-[16px] md:text-[18px] text-black font-normal leading-[130%] text-center'>Home <span className='sm:block'>Services</span></p>
                             </div>
                         </div>
 
                         {/* 7 */}
-                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow'>
+                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow cursor-pointer hover:scale-[1.05] duration-300 '>
                             <div className='flex items-center pt-[25px] sm:pt-9 flex-col'>
                                 <img className='max-w-[48px] sm:max-w-[56px]' src={ServicesImg7} alt="ServicesImg7" />
                                 <p className='ff_CircularStd mt-3 sm:mt-1.5 text-[14px] sm:text-[16px] md:text-[18px] text-black font-normal leading-[130%]'>Contests</p>
@@ -77,7 +77,7 @@ const Services = () => {
                         </div>
 
                         {/* 8 */}
-                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow'>
+                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow cursor-pointer hover:scale-[1.05] duration-300 '>
                             <div className='flex items-center pt-[25px] sm:pt-9 flex-col'>
                                 <img className='max-w-[48px] sm:max-w-[56px]' src={ServicesImg8} alt="ServicesImg8" />
                                 <p className='ff_CircularStd mt-3 sm:mt-1.5 text-[14px] sm:text-[16px] md:text-[18px] text-black font-normal leading-[130%]'>Retail</p>
@@ -85,7 +85,7 @@ const Services = () => {
                         </div>
 
                         {/* 9 */}
-                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow'>
+                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow cursor-pointer hover:scale-[1.05] duration-300 '>
                             <div className='flex items-center pt-[25px] sm:pt-9 flex-col'>
                                 <img className='max-w-[48px] sm:max-w-[56px]' src={ServicesImg9} alt="ServicesImg9" />
                                 <p className='ff_CircularStd mt-3 sm:mt-1.5 text-[14px] sm:text-[16px] md:text-[18px] text-black font-normal leading-[130%]'>Real Estate</p>
@@ -93,7 +93,7 @@ const Services = () => {
                         </div>
 
                         {/* 10 */}
-                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow'>
+                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow cursor-pointer hover:scale-[1.05] duration-300 '>
                             <div className='flex items-center pt-[25px] sm:pt-9 flex-col'>
                                 <img className='max-w-[45px] sm:max-w-[54px]' src={ServicesImg10} alt="ServicesImg10" />
                                 <p className='ff_CircularStd mt-3 sm:mt-1.5 text-[14px] sm:text-[16px] md:text-[18px] text-black font-normal leading-[130%]'>Nightlife</p>
@@ -101,7 +101,7 @@ const Services = () => {
                         </div>
 
                         {/* 11 */}
-                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow'>
+                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow cursor-pointer hover:scale-[1.05] duration-300 '>
                             <div className='flex items-center pt-[25px] sm:pt-9 flex-col'>
                                 <img className='max-w-[47px] sm:max-w-[55px]' src={ServicesImg11} alt="ServicesImg11" />
                                 <p className='ff_CircularStd mt-3 sm:mt-1.5 text-[14px] sm:text-[16px] md:text-[18px] text-black font-normal leading-[130%]'>Restaurants</p>
@@ -109,7 +109,7 @@ const Services = () => {
                         </div>
 
                         {/* 12 */}
-                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow'>
+                        <div className='bg-white border border-white rounded-[10px] w-full max-w-[160px] md:max-w-[175px] min-h-[120px] md:min-h-[156px] card_shadow cursor-pointer hover:scale-[1.05] duration-300 '>
                             <div className='flex items-center pt-[25px] sm:pt-9 flex-col'>
                                 <img className='max-w-[48px] sm:max-w-[56px]' src={ServicesImg12} alt="ServicesImg12" />
                                 <p className='ff_CircularStd mt-3 sm:mt-1.5 text-[14px] sm:text-[16px] md:text-[18px] text-black font-normal leading-[130%]'>Misc</p>
