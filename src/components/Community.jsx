@@ -17,7 +17,7 @@ const Community = () => {
                     <div className='flex flex-col'>
                         <div className='relative'>
                             <img className='absolute top-[-5%] left-[-7%] max-w-[96px] md:max-w-[120px] lg:max-w-[149px]' src={PromoTextVector} alt="PromoTextVector" />
-                            <h2 className='font-black ff_CircularStd text-[28px] md:text-[35px] lg:text-[40px] leading-[110%] text-black lg:max-w-[527px] relative z-10'>Promote Great Products and Create a Community Around Your Product or Venue</h2>
+                            <h2 className='font-black ff_CircularStd text-[28px] md:text-[35px] lg:text-[40px] leading-[110%] text-black lg:max-w-[520px] relative z-10'>Promote Great Products and Create a Community Around Your Product or Venue</h2>
                         </div>
                         <p className='ff_CircularStd text-base sm:text-[18px] leading-[150%] font-normal text-[#797979] lg:max-w-[532px] mt-[14px] sm:mt-5'>Incentive allows businesses to promote their locations, products or websites and boost customers with promotions. Use custom links to invite or allow others to invite. Customers can request redemption or joining of an event/promo to get a discount. After the event, reviews can boost visibility around your brand or product.</p>
                         <p className='text-black text-base sm:text-[18px] leading-[150%] font-normal ff_CircularStd mt-4'>Sign up and start getting customers with great offers.</p>
