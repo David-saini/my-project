@@ -28,7 +28,7 @@ const BackToTop = () => {
                 <span
                     onClick={() => setPosition({ ...position, position: { top: 0, left: 0 } })} className="circle"
                     ref={scrollTop}
-                ><img className='w-100 d-flex' src={topUp} alt="topUp" /></span>
+                ><img className='w-full flex animate-bounce' src={topUp} alt="topUp" /></span>
             </div>
         </>
 
