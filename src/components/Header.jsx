@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <div className='max-w-[1440px] mx-auto relative pt-[60px] md:pt-[80px] lg:pt-[112px]'>
             <img className='absolute top-[32%] sm:top-[25%] lg:top-[16%] right-0 z-10 max-w-[270px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[586px]' src={HeaderVector} alt="HeaderVector" />
-            <img className='absolute top-[-40%] right-[-25%] sm:block hidden' src={Ellipse34} alt="Ellipse34" />
+            <img className='absolute top-[-55%] right-[-25%] sm:block hidden' src={Ellipse34} alt="Ellipse34" />
             <img className='absolute top-[40%] left-[-20%] sm:block hiddden' src={Ellipse35} alt="Ellipse35" />
             <img className='top-0 left-0 w-full absolute sm:hidden block' src={MobileScreenEllipse} alt="MobileScreenEllipse" />
             <div className='max-w-[1164px] mx-auto px-5 sm:px-3 z-[20] relative'>
