@@ -8,7 +8,7 @@ const WinCash = () => {
     return (
         <div className='max-w-[1440px] mx-auto pt-[50px] sm:pt-[65px] md:pt-[80px] lg:pt-[100px] xl:pt-[120px] relative'>
             <img className='absolute top-0 right-[-30%] sm:block hidden' src={Ellipse36} alt="Ellipse36" />
-            <img className='absolute top-[36.1%] left-[6%] md:top-[21%] md:left-[-13%] lg:left-[-4%] xl:left-[2%] max-w-[349px] md:max-w-[400px] lg:max-w-[450px] xl:max-w-[571px]' src={BgCircle} alt="BgCircle" />
+            <img className='absolute top-[35.7%] left-[5%] md:top-[21%] md:left-[-13%] lg:left-[-4%] xl:left-[2%] max-w-[349px] md:max-w-[400px] lg:max-w-[450px] xl:max-w-[571px]' src={BgCircle} alt="BgCircle" />
             <div className="max-w-[1164px] mx-auto px-5 md:px-3 relative z-[50]">
                 <div className='flex items-center md:justify-between md:flex-row flex-col-reverse justify-center flex-wrap md:gap-[31px]'>
 

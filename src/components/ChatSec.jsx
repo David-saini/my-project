@@ -8,7 +8,7 @@ const ChatSec = () => {
     return (
         <div className='max-w-[1440px] mx-auto pt-[50px] sm:pt-[60px] md:pt-20 lg:pt-[100px] relative' id='Chat'>
             <img className='absolute top-0 left-[-30%] sm:block hidden' src={Ellipse37} alt="Ellipse37" />
-            <img className='absolute top-[42%] right-[-0.01px] md:top-[19%] md:right-[-13%] lg:right-0 max-w-[349px] md:max-w-[400px] lg:max-w-[450px] xl:max-w-[571px]' src={BgCircle} alt="BgCircle" />
+            <img className='absolute top-[36.5%] sm:top-[42%] right-[2%] md:top-[19%] md:right-[-13%] lg:right-0 max-w-[349px] md:max-w-[400px] lg:max-w-[450px] xl:max-w-[571px]' src={BgCircle} alt="BgCircle" />
             <div className="max-w-[1164px] mx-auto px-5 md:px-3 relative z-[50]">
                 <div className='flex items-center md:justify-between justify-center flex-wrap md:gap-[31px]'>
 
