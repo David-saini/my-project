@@ -43,6 +43,16 @@ html {
   gap: 20px;
 }
 
+.active::after {
+  content: '';
+  width: 100%;
+  left: 0%;
+  height: 3px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #ffa852;
+  position: absolute;
+  top: -100%;
+}
 
 .navlinks::after {
   content: '';

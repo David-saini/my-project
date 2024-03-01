@@ -5,7 +5,7 @@ import menu from "../assets/images/webp/Menu.webp"
 import CrossIcon from "../assets/images/png/CrossIcon.png"
 
 const Nav = () => {
-    const [Menu, setMenu] = useState(false)
+    const [Menu, setMenu] = useState(false);
 
     if (Menu) {
         document.body.classList.add("overflow-hidden");
@@ -55,7 +55,7 @@ const Nav = () => {
 
                     <div className='lg:block hidden'>
                         <ul className='flex align-items-center gap-5'>
-                            <li className='relative'><a href='#Services' className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</a></li>
+                            <li className='relative'><a href='#Services' className='text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base active'>Menu</a></li>
                             <li className='relative'><a href='#Chat' className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</a></li>
                             <li className='relative'><a href='#Comunity' className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</a></li>
                             <li className='relative'><a href='#Pricing' className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</a></li>
@@ -69,6 +69,7 @@ const Nav = () => {
                     <div className='lg:hidden block z-1'>
                         <Link onClick={() => setMenu(true)}><img className='w-[22px] sm:w-[35px]' src={menu} alt="menu" /></Link>
                     </div>
+
                 </div>
             </div >
         </div>
