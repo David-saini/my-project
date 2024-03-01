@@ -9,7 +9,7 @@ import MobileScreenEllipse from "../assets/images/webp/mobilescreenellipse.webp"
 
 const Header = () => {
     return (
-        <div className='max-w-[1440px] mx-auto relative pt-[60px] md:pt-[80px] lg:pt-[112px]'>
+        <div className='max-w-[1440px] mx-auto relative pt-[60px] md:pt-[80px] lg:pt-[104px]'>
             <img className='absolute top-[32%] sm:top-[25%] lg:top-[16%] right-0 z-10 max-w-[270px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[586px]' src={HeaderVector} alt="HeaderVector" />
             <img className='absolute top-[-55%] right-[-25%] sm:block hidden' src={Ellipse34} alt="Ellipse34" />
             <img className='absolute top-[40%] left-[-20%] sm:block hiddden' src={Ellipse35} alt="Ellipse35" />
