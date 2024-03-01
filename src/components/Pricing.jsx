@@ -6,7 +6,7 @@ import PricingBg from "../assets/images/webp/pricing_bg_img.webp"
 
 const Pricing = () => {
     return (
-        <div className='Pricing_bg'>
+        <div className='Pricing_bg' id='Pricing'>
             <div className='max-w-[1440px] mx-auto'>
                 <div className='max-w-[1164px] mx-auto px-5 md:px-3 py-[50px] sm:py-[60px] md:py-[80px] lg:py-[100px]'>
 

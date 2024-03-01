@@ -4,7 +4,7 @@ import PromoVector from "../assets/images/webp/promo_vector.webp"
 import PromoTextVector from "../assets/images/webp/PromoteText_vector.webp"
 const Community = () => {
     return (
-        <div className='max-w-[1440px] mx-auto relative'>
+        <div className='max-w-[1440px] mx-auto relative' id='Comunity'>
             <img className='absolute top-[50%] sm:top-[35%] lg:top-[18%] left-[-10%] sm:left-0 lg:max-w-[571px] md:max-w-[470px] sm:max-w-[400px] max-w-[327px]' src={PromoVector} alt="PromoVector" />
             <div className='max-w-[1164px] mx-auto px-5 sm:px-3 pt-[54px] pb-[59px] sm:py-[65px] md:py-[80px] lg:py-[100px] z-[100] relative'>
                 <div className='flex items-center justify-between lg:flex-row flex-col-reverse gap-6 lg:gap-8'>

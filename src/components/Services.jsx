@@ -14,7 +14,7 @@ import ServicesImg12 from "../assets/images/webp/ServiceImg12.webp"
 
 const Services = () => {
     return (
-        <div className='mt-[50px] sm:mt-[65px] md:mt-[80px] lg:mt-[136px]'>
+        <div className='mt-[50px] sm:mt-[65px] md:mt-[80px] lg:mt-[136px]' id='Services'>
             <div className='max-w-[1440px] mx-auto relative'>
 
                 <div className='mx-auto max-w-[1164px] px-3 z-50'>

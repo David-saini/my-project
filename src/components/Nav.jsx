@@ -13,6 +13,7 @@ const Nav = () => {
     else {
         document.body.classList.remove("overflow-hidden");
     }
+
     return (
         <div className='bg-[#5271ff] relative z-[100]'>
             <div className='max-w-[1164px] px-3 mx-auto sticky top-0'>
@@ -40,10 +41,10 @@ const Nav = () => {
                             <div className='flex items-center justify-center flex-col'>
                                 <div className='bg-white opacity-20 h-[1px] w-full px-5 mt-8 mb-6'></div>
                                 <ul className='flex align-center justify-center ps-0 mb-0'>
-                                    <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</Link></li>
-                                    <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</Link></li>
-                                    <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</Link></li>
-                                    <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</Link></li>
+                                    <li className='relative'><a href='#Services' className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</a></li>
+                                    <li className='relative'><a href='#Chat' className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</a></li>
+                                    <li className='relative'><a href='#Comunity' className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</a></li>
+                                    <li className='relative'><a href='#Pricing' className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base mobile_navlinks'>Menu</a></li>
                                 </ul>
                                 <div className='block lg:hidden mt-4'>
                                     <button className='ff_CircularStd leading-[126.5%] text-base text-white w-[335px] h-[50px] rounded-[10px] bg-[#FFA852] px-[37px] border border-solid border-[#ffa852] hover:border-black hover:bg-black duration-300 font-medium'>Login</button>
@@ -54,10 +55,10 @@ const Nav = () => {
 
                     <div className='lg:block hidden'>
                         <ul className='flex align-items-center gap-5'>
-                            <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks active'>Menu</Link></li>
-                            <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>
-                            <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>
-                            <li className='relative'><Link className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</Link></li>
+                            <li className='relative'><a href='#Services' className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</a></li>
+                            <li className='relative'><a href='#Chat' className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</a></li>
+                            <li className='relative'><a href='#Comunity' className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</a></li>
+                            <li className='relative'><a href='#Pricing' className='text-white hover:text-[#ffa852] duration-300 font-medium ff_CircularStd leading-[126.5%] text-base navlinks'>Menu</a></li>
                         </ul>
                     </div>
 
