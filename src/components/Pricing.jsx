@@ -1,10 +1,42 @@
-import React from 'react'
 import TikMark from "../assets/images/webp/tik_mark.webp"
 import StandardPrice from "../assets/images/webp/standard_price.webp"
 import Enterprise from "../assets/images/webp/enterprise.webp"
 import PricingBg from "../assets/images/webp/pricing_bg_img.webp"
+import React, { useEffect, useState } from "react";
 
 const Pricing = () => {
+    const [counter, setCounter] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            if (counter < 89) {
+                setCounter((prevCounter) => prevCounter + 1);
+            } else {
+
+                clearInterval(interval);
+            }
+        }, 200);
+        return () => {
+            clearInterval(interval);
+        };
+    }, [counter]);
+
+    const [counter1, setCounter1] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            if (counter1 < 49) {
+                setCounter1((prevCounter) => prevCounter + 1);
+            } else {
+
+                clearInterval(interval);
+            }
+        }, 200);
+        return () => {
+            clearInterval(interval);
+        };
+    }, [counter1]);
+
     return (
         <div className='Pricing_bg' id='Pricing'>
             <div className='max-w-[1440px] mx-auto'>
@@ -24,7 +56,7 @@ const Pricing = () => {
 
                             <h3 className='ff_CircularStd text-center text-[#5271FF] mt-3 sm:mt-5 text-[22px] sm:text-[26px] font-black leading-[140%]'>Standard</h3>
 
-                            <p className='text-center text-black ff_CircularStd text-[50px] sm:text-[60px] font-bold leading-[140%]'>$49<span className='text-[18px] sm:text-[20px]'>/mo</span></p>
+                            <p className='text-center text-black ff_CircularStd text-[50px] sm:text-[60px] font-bold leading-[140%]'>${counter1}<span className='text-[18px] sm:text-[20px]'>/mo</span></p>
 
                             <div className='bg-[#f2f6fd] rounded-[10px] p-5 sm:p-[25px]'>
 
@@ -63,7 +95,7 @@ const Pricing = () => {
 
                             <h3 className='ff_CircularStd text-center text-[#5271FF] mt-3 sm:mt-5 text-[22px] sm:text-[26px] font-black leading-[140%]'>Enterprise</h3>
 
-                            <p className='text-center text-black ff_CircularStd text-[50px] sm:text-[60px] font-bold leading-[140%]'>$89<span className='text-[18px] sm:text-[20px]'>/mo</span></p>
+                            <p className='text-center text-black ff_CircularStd text-[50px] sm:text-[60px] font-bold leading-[140%]'>${counter}<span className='text-[18px] sm:text-[20px]'>/mo</span></p>
 
                             <div className='bg-[#f2f6fd] rounded-[10px] p-5 sm:p-[25px]'>
 
