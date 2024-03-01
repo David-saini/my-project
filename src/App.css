@@ -115,18 +115,6 @@ html {
   transition: all 300ms linear;
 }
 
-/* back to top */
-.circle {
-  position: fixed;
-  display: none;
-  bottom: 5%;
-  right: 2%;
-  z-index: 200;
-  height: 60px;
-  width: 60px;
-  cursor: pointer;
-}
-
 .Pricing_bg {
   background: linear-gradient(90deg, #2846CF 0%, #5271FF 100%);
 }
@@ -153,10 +141,5 @@ html {
 
   .policy_underline {
     max-width: 90px;
-  }
-
-  .circle {
-    height: 40px;
-    width: 40px;
   }
 }
